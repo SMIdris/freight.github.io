@@ -355,7 +355,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div  id="lower-form" >
 
 	<div class="row">
-		 <form class="form-horizontal">
+		 <form class="form-horizontal" onsubmit="return displayThanks();">
             <fieldset>
                 <!-- Address form -->
          
@@ -485,7 +485,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div  id="lower-form" >
 
 	<div class="row">
-		 <form class="form-horizontal">
+		 <form class="form-horizontal" onsubmit="return displayThanks();">
             <fieldset>
                 <!-- Address form -->
          
@@ -571,7 +571,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div  id="lower-form" >
 
 	<div class="row">
-		 <form class="form-horizontal">
+		 <form class="form-horizontal" onsubmit="return displayThanks();">
             <fieldset>
                 <!-- Address form -->
          
@@ -2054,7 +2054,7 @@ $('#myModalCForm').modal('hide');
 $('#myModalCType').modal('hide');
 $('#myModalComType').modal('hide'); 
 $('#myModalThanks').modal('show'); 
-
+return false;
 }
 
   $("#myModalCType").on("hidden.bs.modal", function () {
