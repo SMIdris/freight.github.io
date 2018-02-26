@@ -118,7 +118,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<div class="login-top sign-top">
 										<div class="agileits-login">
 										<h5>Register</h5>
-										<form onsubmit="return isLoggedInTrue();" method="post">
+										<form onsubmit="return isLoggedInTrue();" >
 											<input type="text" name="Name" placeholder="Name" required=""/>
 											<input id="emailId" type="email"  name="Email" placeholder="Email" />
 											<input type="number"  name="phone" placeholder="Phone Number" required=""/>
@@ -1892,6 +1892,7 @@ function isLoggedInTrue() {
    $('#guestname').val($('#emailId').val().split("@",1));
    $('#guestemail').val($('#emailId').val());
    sessionStorage.setItem("isLoggedIn", "true");
+   $('#myModal3').modal('hide');
    checkLogin();
      return false;
 }
