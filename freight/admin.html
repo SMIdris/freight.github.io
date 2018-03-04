@@ -13,7 +13,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Freightage" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-		function hideURLbar(){ window.scrollTo(0,1); } </script>
+		function hideURLbar(){ window.scrollTo(0,1); } 
+		
+		
+		</script>
 <!-- //for-mobile-apps -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -23,9 +26,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <link href="//fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">-->
 <!--//web-fonts-->
 <!--//fonts-->
-</head>
+
+
+   </head>
+   
+  
 <body>
-<div class="banner-w3layouts" id="home">
+
+
+<div style="background: none !important; min-height:0 !important" class="banner-w3layouts" id="home">
 		<!--Top-Bar   myModal3-->
 	<div class="header">
 		<nav class="navbar navbar-default">
@@ -39,12 +48,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<h1><a  href="index.html">Freightage</a></h1>
 					</div>
 					<div class="top-nav-text">
-						<div class="nav-contact-w3ls"><span class="glyphicon glyphicon glyphicon-phone" aria-hidden="true"></span><p>Call us now <br> <span class="call">+0 40 222 3335</span></p></div> 
+						<div style="display:none !important;" class="nav-contact-w3ls"><span class="glyphicon glyphicon glyphicon-phone" aria-hidden="true"></span><p>Call us now <br> <span class="call">+0 40 222 3335</span></p></div> 
 						<a id="loginR" class="page-scroll" href="javascript:checkLogin();" data-toggle="modal" data-hover="LOGIN">LOGIN</a>
 						<a id = "registerR" class="page-scroll" href="#myModal3" data-toggle="modal" data-hover="LOGIN">REGISTER</a>
 					</div>
 					<!-- navbar-header javascript:isLoggedIn();-->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<div style="display:none  !important;" class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a class="hvr-underline-from-center active scroll" href="index.html">Home</a></li>
 							<li><a id="featuresA" href="#features" class="hvr-underline-from-center scroll">Features</a></li>
@@ -144,53 +153,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 										</div>  
 									</div> 
-	<!--								<div class="container">
-        <div class="row centered-form">
-        <div class="col-xs-12 col-sm-8 col-md-4 col-sm-offset-2 col-md-offset-4">
-        	<div class="panel panel-default">
-        		<div class="panel-heading">
-			    		<h3 class="panel-title">Please sign up for Bootsnipp <small>It's free!</small></h3>
-			 			</div>
-			 			<div class="panel-body">
-			    		<form role="form">
-			    			<div class="row">
-			    				<div class="col-xs-6 col-sm-6 col-md-6">
-			    					<div class="form-group">
-			                <input type="text" name="first_name" id="first_name" class="form-control input-sm floatlabel" placeholder="First Name">
-			    					</div>
-			    				</div>
-			    				<div class="col-xs-6 col-sm-6 col-md-6">
-			    					<div class="form-group">
-			    						<input type="text" name="last_name" id="last_name" class="form-control input-sm" placeholder="Last Name">
-			    					</div>
-			    				</div>
-			    			</div>
 
-			    			<div class="form-group">
-			    				<input type="email" name="email" id="email" class="form-control input-sm" placeholder="Email Address">
-			    			</div>
-
-			    			<div class="row">
-			    				<div class="col-xs-6 col-sm-6 col-md-6">
-			    					<div class="form-group">
-			    						<input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password">
-			    					</div>
-			    				</div>
-			    				<div class="col-xs-6 col-sm-6 col-md-6">
-			    					<div class="form-group">
-			    						<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-sm" placeholder="Confirm Password">
-			    					</div>
-			    				</div>
-			    			</div>
-			    			
-			    			<input type="submit" value="Register" class="btn btn-info btn-block">
-			    		
-			    		</form>
-			    	</div>
-	    		</div>
-    		</div>
-    	</div>
-    </div>-->
 						</div>  
 				</div> <!-- //login-page -->
 			</div>
@@ -216,9 +179,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div> <!-- //login-page -->
 			</div>
 		</div>
-	
-	<!-- modal for customization-->
-	<div class="modal about-modal w3-agileits fade" id="myModalC1" tabindex="-1" role="dialog">
+		
+				<div class="modal about-modal w3-agileits fade" id="myModalQuoteEdit" tabindex="-1" role="dialog">
 		<div style="width:80% !important" class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -227,7 +189,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="modal-body login-page "><!-- login-page -->     
 									<div class="login-top sign-top">
 										<div class="agileits-login">
-										<h5>Customize your quote</h5>
+										<h5>Quote updated successfully.</h5>
+										
+
+										</div>  
+									</div>
+						</div>  
+				</div> <!-- //login-page -->
+			</div>
+		</div>
+	
+	<!-- modal for customization-->
+	<div class="modal about-modal w3-agileits fade" id="myModalC1" tabindex="-1" role="dialog">
+		<div style="width:90% !important" class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div> 
+				<div class="modal-body login-page "><!-- login-page -->     
+									<div class="login-top sign-top">
+										<div class="agileits-login">
+										<h5>Edit quote</h5>
 										<div id="upper-form">
 										<form onsubmit="return customizeQuote()" >
 										
@@ -268,9 +250,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <option value="Hazardous">Hazardous  commodity</option>
                         
                     </select></td>
-                <td>25-30 days</td>
-                <td>3/12/2018</td>
-                <td id="rate-c">$ 414 - 588</td>
+                <td><input style="margin-bottom:0.5em !important;padding:6px !important"  type="text" name="rate-cdays" value="25-30 days"/></td>
+                <td><input style="margin-bottom:0.5em !important;padding:6px !important" type = "text" id = "datepicker-13" value="3/12/2018" ></td>
+                <td id="rate-c"><input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 414 - 588"/></td>
             </tr>
          
   
@@ -278,7 +260,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	
     </table>
 	<div >  
-      <table class="table-cost" border = "0" width = "50%" >
+      <table style="display:none !important" class="table-cost" border = "0" width = "50%" >
       
         
          <tbody>
@@ -327,7 +309,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		
 										</form>
 										<div style="text-align: center;width:100%">  
-<Button id="bookNowR" class="page-scroll bookNowRC" onclick="displayForm();" data-toggle="modal" data-hover="Book Now">Book Now</Button>
+<Button id="bookNowR" class="page-scroll bookNowRC" onclick="displayForm();" data-toggle="modal" data-hover="Book Now">Update</Button>
 </div>  
 </div> 
 
@@ -684,7 +666,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	
 <!--banner-->
 		<!--Slider-->
-			<div class="w3l_banner_info">
+			<div style="display:none !important;" class="w3l_banner_info">
 				<div class="col-md-71 col-md-7 slider">
 					<div class="callbacks_container">
 								<ul class="rslides" id="slider3">
@@ -734,7 +716,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								</ul>
 					</div>
 				</div>
-<div class="col-md-5 col-md-51 banner-form-agileinfo">
+<div style="display:none !important;" class="col-md-5 col-md-51 banner-form-agileinfo">
 					<form name="search" onsubmit="return makeSearch()" >
 						<input id="guestname" type="text" class="email" name="name" placeholder="Guest Name" required=""/>
 						<input id="guestemail" type="email" class="password" name="email" placeholder="Email" required=""/>
@@ -763,7 +745,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <div class="features" id="features">
 		<div class="container">
-			<h2 id="quote-h3" class="title-w3">Instant Quote</h2>
+			<h2 id="quote-h3" class="title-w3">Edit Quotes</h2>
 		    <div class="w3-agile-top-info">	
 
 				<div id="div1" class="">
@@ -772,7 +754,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <thead>
             <tr>
 				<th>Shipping Line</th>
-                <th>Container Type</th>
+				<th>Container Type</th>
+				<th>Origin Port </th>
+				<th>Destination Port</th>
+                
                 <th>Container Size</th>
                 <th>Commodity Type</th>
                 <th>Transit Time</th>
@@ -782,807 +767,222 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </thead>
 
 		<tbody >
-            <tr>
+          	  <tr>
 				<td><img src="./images/logos/logo1.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Chennai (INMAA)</td>
+				<td>Dubai (AEDXB)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>25-30 days</td>
                 <td>3/12/2018</td>
-                <td>$ 414 - 588<br><a href="javascript:isCustomize(1);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody1" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 414 - 588<br><a href="javascript:isCustomize(1);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody1" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
          
-  
-        </tbody>
-	
-    </table>
-	</div>
-	<div id="tbody2div">
-						<table  id="tbody2" class="display dataTable" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-				<th>Shipping Line</th>
-                <th>Container Type</th>
-                <th>Container Size</th>
-                <th>Commodity Type</th>
-                <th>Transit Time</th>
-                <th>Shipment Week</th>
-                <th>Price (US$)/Container</th>
-            </tr>
-        </thead>
-
-		
-			<tbody>
-          
-            <tr>
+    <tr>
 				<td><img src="./images/logos/logo2.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Chennai (INMAA)</td>
+				<td>Singapore (SGSIN)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>15 days</td>
                 <td>3/12/2018</td>
-                <td>$ 80<br><a href="javascript:isCustomize(2);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 80<br><a href="javascript:isCustomize(2);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
            <tr>
 				<td><img src="./images/logos/logo3.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Chennai (INMAA)</td>
+				<td>Singapore (SGSIN)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>12 days</td>
                 <td>3/12/2018</td>
-                <td>$ 100<br><a href="javascript:isCustomize(3);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 100<br><a href="javascript:isCustomize(3);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
 			
 			 <tr>
 				<td><img src="./images/logos/logo4.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Chennai (INMAA)</td>
+				<td>Singapore (SGSIN)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>15 days</td>
                 <td>3/12/2018</td>
-                <td>$ 85<br><a href="javascript:isCustomize(4);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 85<br><a href="javascript:isCustomize(4);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
-  
-        </tbody>
-	
-    </table>
-	</div>
-	<div id="tbody3div">
-	<table id="tbody3" class="display dataTable" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-				<th>Shipping Line</th>
-                <th>Container Type</th>
-                <th>Container Size</th>
-                <th>Commodity Type</th>
-                <th>Transit Time</th>
-                <th>Shipment Week</th>
-                <th>Price (US$)/Container</th>
-            </tr>
-        </thead>
-
-
-		<tbody >
-            
-			
 			 <tr>
 				<td><img src="./images/logos/logo1.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Chennai (INMAA)</td>
+				<td>Shanghai (CNSGH)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>15 days</td>
                 <td>3/12/2018</td>
-                <td>$ 150<br><a href="javascript:isCustomize(5);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody3" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 150<br><a href="javascript:isCustomize(5);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody3" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
-  
-        </tbody>
-    </table>
-	</div>
-				</div>
-				
-				
-				<div id="div2" class="">
-				<div id="tbody4div">
-					<table id="tbody4" class="display dataTable" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-				<th>Shipping Line</th>
-                <th>Container Type</th>
-                <th>Container Size</th>
-                <th>Commodity Type</th>
-                <th>Transit Time</th>
-                <th>Shipment Week</th>
-                <th>Price (US$)/Container</th>
-            </tr>
-        </thead>
-
-		<tbody >
-            <tr>
+			
+			   <tr>
 				<td><img src="./images/logos/logo2.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Mumbai (INBOM)</td>
+				<td>Dubai (AEDXB)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>25-30 days</td>
                 <td>3/12/2018</td>
-                <td>$ 272 - 387<br><a href="javascript:isCustomize(6);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody1" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 272 - 387<br><a href="javascript:isCustomize(6);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody1" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
-         
-  
-        </tbody>
-	
-    </table>
-	</div>
-	<div id="tbody5div">
-						<table  id="tbody5" class="display dataTable" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-				<th>Shipping Line</th>
-                <th>Container Type</th>
-                <th>Container Size</th>
-                <th>Commodity Type</th>
-                <th>Transit Time</th>
-                <th>Shipment Week</th>
-                <th>Price (US$)/Container</th>
-            </tr>
-        </thead>
-
-		
-			<tbody>
-          
-            <tr>
+			
+			 <tr>
 				<td><img src="./images/logos/logo3.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Mumbai (INBOM)</td>
+				<td>Singapore (SGSIN)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>15 days</td>
                 <td>3/12/2018</td>
-                <td>$ 213 - 356<br><a href="javascript:isCustomize(7);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 213 - 356<br><a href="javascript:isCustomize(7);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
            <tr>
 				<td><img src="./images/logos/logo4.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Mumbai (INBOM)</td>
+				<td>Singapore (SGSIN)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>12 days</td>
                 <td>3/12/2018</td>
-                <td>$ 310 - 450<br><a href="javascript:isCustomize(8);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 310 - 450<br><a href="javascript:isCustomize(8);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
 			
 			 <tr>
 				<td><img src="./images/logos/logo5.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Mumbai (INBOM)</td>
+				<td>Singapore (SGSIN)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>15 days</td>
                 <td>3/12/2018</td>
-                <td>$ 280 - 410<br><a href="javascript:isCustomize(9);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 280 - 410<br><a href="javascript:isCustomize(9);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
-  
-        </tbody>
-	
-    </table>
-	</div>
-	<div id="tbody6div">
-	<table id="tbody6" class="display dataTable" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-				<th>Shipping Line</th>
-                <th>Container Type</th>
-                <th>Container Size</th>
-                <th>Commodity Type</th>
-                <th>Transit Time</th>
-                <th>Shipment Week</th>
-                <th>Price (US$)/Container</th>
-            </tr>
-        </thead>
-
-
-		<tbody >
-            
 			
+					
 			 <tr>
 				<td><img src="./images/logos/logo4.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Mumbai (INBOM)</td>
+				<td>Shanghai (CNSGH)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>25 -30 days</td>
                 <td>3/12/2018</td>
-                <td>$ 276 - 462<br><a href="javascript:isCustomize(10);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody3" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 276 - 462<br><a href="javascript:isCustomize(10);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody3" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
 			
 			 <tr>
 				<td><img src="./images/logos/logo3.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Mumbai (INBOM)</td>
+				<td>Shanghai (CNSGH)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>20 -25 days</td>
                 <td>3/12/2018</td>
-                <td>$ 350 - 430<br><a href="javascript:isCustomize(11);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody3" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 350 - 430<br><a href="javascript:isCustomize(11);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody3" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
-  
-        </tbody>
-    </table>
-	</div>
-				</div>
-				
-				
-				
-				
-				<div id="div3" class="">
-				<div id="tbody7div">
-					<table id="tbody7" class="display dataTable" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-				<th>Shipping Line</th>
-                <th>Container Type</th>
-                <th>Container Size</th>
-                <th>Commodity Type</th>
-                <th>Transit Time</th>
-                <th>Shipment Week</th>
-                <th>Price (US$)/Container</th>
-            </tr>
-        </thead>
-
-		<tbody >
-            <tr>
+			
+			          <tr>
 				<td><img src="./images/logos/logo2.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Kolkata (INCCU)</td>
+				<td>Dubai (AEDXB)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>25-30 days</td>
                 <td>3/12/2018</td>
-                <td>$ 472 - 671<br><a href="javascript:isCustomize(12);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody7" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 472 - 671<br><a href="javascript:isCustomize(12);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody7" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
 			
 			<tr>
 				<td><img src="./images/logos/logo1.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+					<td>Kolkata (INCCU)</td>
+				<td>Dubai (AEDXB)</td>
+				
                 <td>20</td>
                 <td>General</td>
                 <td>24 days</td>
                 <td>3/12/2018</td>
-                <td>$ 525<br><a href="javascript:isCustomize(13);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody7" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 525<br><a href="javascript:isCustomize(13);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody7" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
-         
-  
-        </tbody>
-	
-    </table>
-	</div>
-	<div id="tbody8div">
-						<table  id="tbody8" class="display dataTable" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-				<th>Shipping Line</th>
-                <th>Container Type</th>
-                <th>Container Size</th>
-                <th>Commodity Type</th>
-                <th>Transit Time</th>
-                <th>Shipment Week</th>
-                <th>Price (US$)/Container</th>
-            </tr>
-        </thead>
-
-		
-			<tbody>
-   
-           <tr>
+			
+			          <tr>
 				<td><img src="./images/logos/logo2.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Kolkata (INCCU)</td>
+				<td>Shanghai (CNSGH)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>1 day</td>
                 <td>3/12/2018</td>
-                <td>$ 35<br><a href="javascript:isCustomize(14);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 35<br><a href="javascript:isCustomize(14);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody2" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
-	
-  
-        </tbody>
-	
-    </table>
-	</div>
-	<div id="tbody9div">
-	<table id="tbody9" class="display dataTable" cellspacing="0" width="100%">
-        <thead>
-            <tr>
-				<th>Shipping Line</th>
-                <th>Container Type</th>
-                <th>Container Size</th>
-                <th>Commodity Type</th>
-                <th>Transit Time</th>
-                <th>Shipment Week</th>
-                <th>Price (US$)/Container</th>
-            </tr>
-        </thead>
-
-
-		<tbody >
-            
 			
-			 <tr>
+				 <tr>
 				<td><img src="./images/logos/logo3.png" alt="Smiley face" height="52" width="52"></td>
                 <td>Standard</td>
+				<td>Kolkata (INCCU)</td>
+				<td>Singapore (SGSIN)</td>
                 <td>20</td>
                 <td>General</td>
                 <td>33 days</td>
                 <td>3/12/2018</td>
-                <td>$ 175<br><a href="javascript:isCustomize(15);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody3" data-dt-idx="7" tabindex="0" id="example_nexts">Book</a></td>
+                <td>$ 175<br><a href="javascript:isCustomize(15);" data-toggle="modal" data-hover="LOGIN" class="paginate_buttons nexts" aria-controls="tbody3" data-dt-idx="7" tabindex="0" id="example_nexts">Edit</a></td>
             </tr>
-  
         </tbody>
+	
     </table>
 	</div>
+
 				</div>
+				
+				
+
+				
+	
 				
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-</div>
+
 				
 <!-- welcome -->
-	<div class="features" id="features">
-		<div class="container">
-			<h2 class="title-w3">Amazing features</h2>
-			<div id="fancy-list-group">
-      <div class="row" style="
-    margin-bottom: 40px;
-">
-        <div class="list-group">
-            
-          <div class="col-lg-12">
-            <li class="list-group-item list-group-item-info" style="margin-bottom: 10px;">
-              
-              <div class="list-group-item-content">
-			  
-                <p style="font-weight: 600;" class="list-group-item-heading"><span class="glyphicon  glyphicon-king"></span>  Instant freight quotes from leading freight companies.</p>
-                <p class="list-group-item-text"></p>
-              </div>
-              
-            </li>
-
-            <li class="list-group-item list-group-item-info" style="margin-bottom: 10px;">
-              <div class="list-group-item-content">
-			  
-                <p style="font-weight: 600;" class="list-group-item-heading"><span class="glyphicon  glyphicon-globe"></span>  Large network of freight companies for Shipper to choose best freight.</p>
-                <p class="list-group-item-text"></p>
-              </div>
-              
-            </li>
-			
-			<li class="list-group-item list-group-item-info" style="margin-bottom: 10px;">
-              <div class="list-group-item-content">
-			  
-                <p style="font-weight: 600;" class="list-group-item-heading"><span class="glyphicon glyphicon-map-marker"></span>  Live tracking of your shipment. Regular updates on your contacts.</p>
-                <p class="list-group-item-text"></p>
-              </div>
-             
-            </li>
-          </div>
-    
-          <div class="col-md-6">
-            <li class="list-group-item list-group-item-info" style="margin-bottom: 10px;">
-               <div class="list-group-item-content">
-			  
-                <p style="font-weight: 600;" class="list-group-item-heading"><span class="glyphicon glyphicon-hand-up"></span>  Book online.</p>
-                <p class="list-group-item-text"></p>
-              </div>
-              
-            </li>
-          </div>
-    
-          <div class="col-md-6">
-            <li class="list-group-item list-group-item-info" style="margin-bottom: 10px;">
-              <div class="list-group-item-content">
-			  
-                <p style="font-weight: 600;" class="list-group-item-heading"><span class="glyphicon glyphicon-ruble"></span>  Multiple payment option.</p>
-                <p class="list-group-item-text"></p>
-              </div>
-             
-            </li>
-          </div>
-    
-          <div class="col-lg-12">
-            <li class="list-group-item list-group-item-info" style="margin-bottom: 10px;">
-              <div class="list-group-item-content">
-			  
-                <p style="font-weight: 600;" class="list-group-item-heading"><span class="glyphicon glyphicon-user"></span> 24 X 7 Customer service. Live chat.</p>
-                <p class="list-group-item-text"></p>
-              </div>
-             
-            </li>
-          </div>
-          
-        </div>
-      </div>
-		    <div class="w3-agile-top-info">	
-			<div class="w3-welcome-grids">
-				<div class="col-md-7 w3-welcome-left">
-					<h5>WE OFFER QUICK & POWERFUL SOLUTION FOR TRANSPORT</h5>
-					<p>Your business can change by the second. Time is money so you need a reliable business partner who can anticipate changes and act quickly. You can count on Job Way Transports. to deliver just in time. We will solve all your time-critical transport challenges by creating the best solutions for your Full Truck Load (FTL) and Less than Truck Load (LTL).
-					We can even provide you with Less than Container Load (LCL) services in India to ensure we keep your goods on the move. It’s not just because we are one of India's leading supply chain and logistics provider.</span></p>
-				</div>
-				<div class="col-md-5 w3ls-welcome-img1">
-					<img src="images/w1.jpg" alt="" />
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="w3-welcome-grids w3-welcome-bottom">
-				<div class="col-md-5 w3ls-welcome-img1 w3ls-welcome-img2">
-					<img src="images/w2.jpg" alt="" />
-				</div>
-				<div class="col-md-7 w3-welcome-left">
-					<h5>CARGO SHIPPING AVAILABLE AT GOOD DISCOUNTS</h5>
-					<p>Transporting large, bulky items can be expensive and stressful, but uShip makes it easy to find transporters who offer cheap discount shipping for your items. From vehicles, to furniture and appliances, to industrial equipment. You can find low-cost shipping options that do not require sacrificing quality of service.
-
-Thousands of customers have found cheap discount shipping on uShip and there is no risk or obligation when you list your item(s) for transport. You can check feedback, insurance and delivery information of each transporter in their profile before accepting their bid.</span></p>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-	</div>
-</div>
+	
 	<!-- //welcome -->
 <!-- Stats -->
-	<div style="display:none;" class="jarallax  stats-agileits" id="stats">
-		<div class="stats-info agileits w3layouts">
-			<div class="col-md-3 agileits w3layouts col-sm-3 stats-grid stats-grid-1">
-				<div class="numscroller agileits-w3layouts" data-slno='1' data-min='0' data-max='15' data-delay='3' data-increment="2">15</div>
-				<div class="stat-info-w3ls">
-					<h4 class="agileits w3layouts"><span>years</span> of growing business</h4>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-3 agileits w3layouts stats-grid stats-grid-2">
-				<div class="numscroller agileits-w3layouts" data-slno='1' data-min='0' data-max='2012' data-delay='3' data-increment="2">2012</div>
-				<div class="stat-info-w3ls">
-					<h4 class="agileits w3layouts"><span>Satisfied</span> clients</h4>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-3 stats-grid agileits w3layouts stats-grid-3">
-				<div class="numscroller agileits-w3layouts" data-slno='1' data-min='0' data-max='500' data-delay='3' data-increment="2">500</div>
-				<div class="stat-info-w3ls">
-					<h4 class="agileits w3layouts"><span>Drivers</span> nationwide</h4>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-3 stats-grid stats-grid-4 agileits w3layouts">
-				<div class="numscroller agileits-w3layouts" data-slno='1' data-min='0' data-max='4535' data-delay='3' data-increment="2">4535</div>
-				<div class="stat-info-w3ls">
-					<h4 class="agileits w3layouts"><span>Loads</span> per year</h4>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-
-	</div>
+	
 	<!-- //Stats -->
 
 <!-- capabilities -->
-	<div style="display:none;" class="capabilities" id="capabilities">
-		<div class="container">
-			<h4 class="title-w3">Capabilities</h4>
-			<div class="why-choose-agile-grids-top">
-				<div class="col-md-4 agileits-w3layouts-grid">
-					<div class="wthree_agile_us leftw3ls">
-						<div class="col-xs-8 agile-why-text siml-w3ls">
-							<h4>Quickest cargo</h4>
-							<p>The key to transporting Project Cargo is to understand the complexities.</p>
-						</div>
-						<div class="col-xs-4 agile-why-text siml-w3ls">
-							<div class="wthree_features_grid left hvr-rectangle-out">
-								<i class="fa fa-plane" aria-hidden="true"></i>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="wthree_agile_us leftw3ls">
-						<div class="col-xs-8 agile-why-text siml-w3ls">
-							<h4>Transportation</h4>
-							<p>While the focus of this report is on freight transportation and associated data need.</p>
-						</div>
-						<div class="col-xs-4 agile-why-text siml-w3ls">
-							<div class="wthree_features_grid left hvr-rectangle-out">
-								<i class="fa fa-truck" aria-hidden="true"></i>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="wthree_agile_us leftw3ls">
-						<div class="col-xs-8 agile-why-text siml-w3ls">
-							<h4>Maintenance</h4>
-							<p>One stop solution your transport requirements.</p>
-						</div>
-						<div class="col-xs-4 agile-why-text siml-w3ls">
-							<div class="wthree_features_grid left hvr-rectangle-out">
-								<i class="fa fa-wrench" aria-hidden="true"></i>
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-				<div class="col-md-4 agileits-w3layouts-grid mid-img-agileits">
-					
-				</div>
-				<div class="col-md-4 agileits-w3layouts-grid">
-					<div class="wthree_agile_us rightw3ls">
-					<div class="col-xs-4 agile-why-text simr-w3ls">
-							<div class="wthree_features_grid right hvr-rectangle-out">
-								<i class="fa fa-cogs" aria-hidden="true"></i>
-							</div>
-						</div>
-						<div class="col-xs-8 agile-why-text two simr-w3ls">
-							<h4>Training</h4>
-							<p>Job Way Transport provides transportation for trailers to our customers.</p>
-						</div>
-						
-						<div class="clearfix"> </div>
-					</div>
-					<div class="wthree_agile_us rightw3ls">
-					<div class="col-xs-4 agile-why-text simr-w3ls">
-							<div class="wthree_features_grid right hvr-rectangle-out">
-								<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
-							</div>
-						</div>
-						<div class="col-xs-8 agile-why-text two simr-w3ls">
-							<h4>Logistic service</h4>
-							<p>Container related services are our specialty.</p>
-						</div>
-						
-						<div class="clearfix"> </div>
-					</div>
-					<div class="wthree_agile_us rightw3ls">
-					<div class="col-xs-4 agile-why-text simr-w3ls">
-							<div class="wthree_features_grid right hvr-rectangle-out">
-								<i class="fa fa-clock-o" aria-hidden="true"></i>
-							</div>
-						</div>
-						<div class="col-xs-8 agile-why-text two simr-w3ls">
-							<h4>Timely delivery</h4>
-							<p>On Time commitment, real-time tracking, e-billing & skilled customer service platform.</p>
-						</div>
-						
-						<div class="clearfix"> </div>
-					</div>
-						
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
+	
 <!-- //capabilities -->
 <!--team-->
-<div  style="margin-top: 70px;" class="team" id="team">
-			<div class="col-md-6 agile-team-grids">
-				<div class="col-md-6 team-grid">
-					<div class="team-img">
-						<img src="images/t1.jpg" class="img-responsive" alt=" " />
-						<figcaption class="overlay">
-								<h4>Arvind</h4>
-					<span>CEO</span>
-							<div class="w3l-social">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								</ul>
-							</div>
-						</figcaption>
-					</div>
-				
-				</div>
-				<div class="col-md-6 team-grid">
-					<div class="team-img">
-						<img src="images/t2.jpg" class="img-responsive" alt=" " />
-						<figcaption class="overlay">
-							<h4>Avinash CS</h4>
-					<span>Managing Director</span>
-							<div class="w3l-social">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								</ul>
-							</div>
-						</figcaption>
-					</div>
-					
-				</div>
-				<div class="col-md-6 team-grid">
-					<div class="team-img">
-						<img src="images/t3.jpg" class="img-responsive" alt=" " />
-						<figcaption class="overlay">
-								<h4>Rajesh</h4>
-					<span>Executive Director</span>
-							<div class="w3l-social">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								</ul>
-							</div>
-						</figcaption>
-					</div>
-					
-				</div>
-				<div class="col-md-6 team-grid">
-					<div class="team-img">
-						<img src="images/t4.jpg" class="img-responsive" alt=" " />
-						<figcaption class="overlay">
-							  <h4>Pattrick</h4>
-					           <span>Sales Executive</span>
-							<div class="w3l-social">
-								<ul>
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-								</ul>
-							</div>
-						</figcaption>
-					</div>
-					
-				</div>
-				<div class="clearfix"></div>
-			</div>
-	<div class="col-md-6 team-grid-text-agile">
-		
-		    <h4 class="title-w3 two">Our Team</h4>
-			<p>An experienced team of professionals with decades of experience in the Aviation, Freight Forwarding, Logistics, and Transportation industries, operating as a well-coordinated and service oriented team has been the cornerstone of our organization. </p>
-			<p>They strive to deliver top quality, seamless, and highly personalized levels of service in meeting the most demanding requirements of our customers spread across various customer segments.</p>
-		</div>
-		<div class="clearfix"> </div>
 
-</div>
 <!--//team-->
 <!-- gallery -->
-		<div style="display:none;" class="gallery"  id="gallery">
-			<div class="container">
-				<h4 class="title-w3">Vehicles Gallery</h4>
-				<div id="jzBox" class="jzBox">
-					<div id="jzBoxNextBig"></div>
-					<div id="jzBoxPrevBig"></div>
-					<img src="#" id="jzBoxTargetImg" alt="">
-					<div id="jzBoxBottom">
-						<div id="jzBoxTitle"></div>
-						<div id="jzBoxCounter"></div>
-						<span id="jzBoxMoreItems"> 
-							<i class="glyphicon glyphicon-chevron-left" id="jzBoxPrev"></i> &nbsp;
-							<i class="glyphicon glyphicon-chevron-right" id="jzBoxNext"></i> &nbsp;
-						</span>
-						<i class="glyphicon glyphicon-remove-circle" id="jzBoxClose"></i>
-					</div>
-				</div>
-				<div class="gallery-grids-row">
-					<div class="col-md-4 gallery-grid">
-						<div class="wpf-demo-4">  
-							<a href="images/g1.jpg" class="jzBoxLink item-hover" title="Maecenas sodales tortor ac ligula ultrices dictum et quis urna.">  
-								<img src="images/g1.jpg" class="img-responsive" alt=" " />
-								<div class="view-caption">
-									<p>Our Gallery</p>
-								</div> 
-							</a>    		
-						</div>
-						<div class="wpf-demo-4">  
-							<a href="images/g2.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
-								<img src="images/g2.jpg" alt=" " class="img-responsive" />
-								<div class="view-caption">
-									<p>Our Gallery</p>
-								</div> 
-							</a>    			
-						</div>
-						<div class="wpf-demo-4">  
-							<a href="images/g7.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
-								<img src="images/g7.jpg" alt=" " class="img-responsive" />
-								<div class="view-caption">
-									<p>Our Gallery</p>
-								</div> 
-							</a>    			
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-4 gallery-grid">
-						<div class="wpf-demo-4">  
-							<a href="images/g3.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
-								<img src="images/g3.jpg" alt=" " class="img-responsive" />
-								<div class="view-caption">
-									<p>Our Gallery</p>
-								</div> 
-							</a>    			
-						</div>
-						<div class="wpf-demo-4">  
-							<a href="images/g4.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
-								<img src="images/g4.jpg" alt=" " class="img-responsive" />
-								<div class="view-caption">
-									<p>Our Gallery</p>
-								</div> 
-							</a>    			
-						</div>
-						<div class="wpf-demo-4">  
-							<a href="images/g4.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
-								<img src="images/g9.jpg" alt=" " class="img-responsive" />
-								<div class="view-caption">
-									<p>Our Gallery</p>
-								</div> 
-							</a>    			
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="col-md-4 gallery-grid">
-						<div class="wpf-demo-4">  
-							<a href="images/g6.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
-								<img src="images/g6.jpg" alt=" " class="img-responsive" />
-								<div class="view-caption">
-									<p>Our Gallery</p>
-								</div> 
-							</a>  
-						</div> 
-						<div class="wpf-demo-4">  
-							<a href="images/g8.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
-								<img src="images/g8.jpg" alt=" " class="img-responsive" />
-								<div class="view-caption">
-									<p>Our Gallery</p>
-								</div> 
-							</a>    			
-						</div>
-						<div class="wpf-demo-4">  
-							<a href="images/g5.jpg" class="jzBoxLink item-hover" title="Etiam pulvinar metus neque eget porttitor massa.">  
-								<img src="images/g5.jpg" alt=" " class="img-responsive" />
-								<div class="view-caption">
-									<p>Our Gallery</p>
-								</div> 
-							</a>    			
-						</div> 
-						<div class="clearfix"> </div>
-					</div>
-					<div class="clearfix"> </div>
-				</div>
-			</div>
-		</div>
+		
 		<!-- //gallery --> 	
 <!--map-->
-		<div style="margin-top: 70px;" class="map-w3ls">
-				<h4 class="title-w3">Contact Info</h4>
-		<div class="contact-agile" id="contact">
-				<div class="contact-left">
-					<h6>Contact us</h6>  
-					<p>5-1, SR Naik Nagar,<br> Srinivasa Nagar, Suraram,</p>
-					<br> Hyderabad, Telangana 500055.</p>
-					<p><a href="mailto:info@example.com" class="a1" >mail@example.com</a></p>
-					<h6 class="open-w3ls">Opening Hours</h6>
-					<p>Monday-Saturday</p>
-					<span>7.00AM-10.00PM</span>
-						<a class="page-scroll a2" href="#myModal1" data-toggle="modal" data-hover="LOGIN">Send Message</a>
-				</div>
-		</div>
-<iframe src="https://www.google.com/maps?q=5-1, SR Naik Nagar, Srinivasa Nagar, Suraram, Hyderabad, Telangana 500055&output=embed"></iframe>
-		</div>
-		<!-- modal -->
-	<div class="modal about-modal w3-agileits fade" id="myModal1" tabindex="-1" role="dialog">
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
-				</div> 
-				<div class="modal-body login-page "><!-- login-page -->     
-									<div class="login-top sign-top">
-										<div class="agileits-login">
-										<h5>Send A Message</h5>
-										<form action="#" method="post">
-											<input type="text" name="name" placeholder="Name" required=""/>
-											<input type="text" name="Email" placeholder="Email" required=""/>
-											<input type="text" name="Subject" placeholder="Subject" required=""/>
-											<textarea  name="your message" placeholder="Your message" required="" ></textarea>
-											<div class="w3ls-submit"> 
-												<input type="submit" value="Send Message">  	
-											</div>	
-										</form>
 
-										</div>  
-									</div>
-						</div>  
-				</div> <!-- //login-page -->
-			</div>
-		</div>
+		<!-- modal -->
+	
 	<!-- //modal --> 
 <!--//map | Design by <a href="http://w3layouts.com/">W3layouts-->
 
@@ -1592,6 +992,7 @@ Thousands of customers have found cheap discount shipping on uShip and there is 
 <!-- js -->
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 <!-- jarallax-js -->
+
 			<script src="js/jarallax.js"></script>
 			<script src="js/SmoothScroll.min.js"></script>
 			<script type="text/javascript">
@@ -1674,6 +1075,8 @@ Thousands of customers have found cheap discount shipping on uShip and there is 
 	 sessionStorage.setItem("isLoggedIn", "false");
 	 sessionStorage.setItem("tableId", ""+0);
 		$(document).ready(function() {
+		
+
 		isLoggedIn = false;
 		/*
 			var defaults = {
@@ -1769,13 +1172,11 @@ Thousands of customers have found cheap discount shipping on uShip and there is 
 
 
 
+isLoggedInTrue();
+document.getElementById("quote-h3").style.display = "block";
 
+document.getElementById("div1").style.display = "block";
 
-document.getElementById("quote-h3").style.display = "none";
-
-document.getElementById("div1").style.display = "none";
-document.getElementById("div2").style.display = "none";
-document.getElementById("div3").style.display = "none";
 
 		});
 	function makeSearch() {
@@ -1902,9 +1303,6 @@ function isLoggedInTrue() {
    $('#guestemail').val($('#emailId').val());
    sessionStorage.setItem("isLoggedIn", "true");
    $('#myModal3').modal('hide');
-     if(($('#guestname').val()) === "admin"){
-		window.open("./admin.html", '_blank');
-		}
    checkLogin();
      return false;
 }
@@ -1935,8 +1333,6 @@ function checkLogin() {
 			isCustomize(parseInt(sessionStorage.getItem("tableId")));
 		}
 		}
-		
-		
   }else{
 		sessionStorage.setItem("tableId", "0");
 		document.getElementById("registerR").style.display = "inline";
@@ -1947,9 +1343,6 @@ function checkLogin() {
 		loginTxt.innerText = "LOGIN";
 		
   }
-  
-  
-  
 }
 
 function isCustomize(tableId) {
@@ -1963,10 +1356,10 @@ function isCustomize(tableId) {
  $("#selectcontainersize").val("20").change();
  $("#selectcomoditytype").val("General").change();
    switch(tableId) {
-   
+
 		case 1:
 		$('#tableTD1').html('414');
-		$('#rate-c').html('$ 414 - 588');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 414 - 588"/>');
 		//alert(sessionStorage.getItem("isLoggedIn") + tableId);
         $('#myModalC1').modal('show'); 
         break;
@@ -1975,72 +1368,72 @@ function isCustomize(tableId) {
 		//alert(sessionStorage.getItem("isLoggedIn") + tableId);
 		
 		$('#tableTD1').html('80');
-		$('#rate-c').html('$ 80');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 80"/>');
         $('#myModalC1').modal('show'); 
         break;
 		case 3:
 		$('#tableTD1').html('100');
-		$('#rate-c').html('$ 100');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 100"/>');
         $('#myModalC1').modal('show'); 
         break;
 		case 4:
 		$('#tableTD1').html('85');
-		$('#rate-c').html('$ 85');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 85"/>');
         $('#myModalC1').modal('show'); 
         break;
 		case 5:
 		$('#tableTD1').html('150');
-		$('#rate-c').html('$ 150');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 150"/>');
         $('#myModalC1').modal('show'); 
         break;
 		case 6:
 		$('#tableTD1').html('272');
-		$('#rate-c').html('$ 272 - 387');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 272 - 387"/>');
         $('#myModalC1').modal('show'); 
         break;
 		case 7:
 		$('#tableTD1').html('213');
-		$('#rate-c').html('$ 213 - 356');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 213 - 356"/>');
         $('#myModalC1').modal('show'); 
         break;
 		case 8:
 		$('#tableTD1').html('100');
-		$('#rate-c').html('$ 310 - 450');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 310 - 450"/>');
         $('#myModalC1').modal('show'); 
         break;
 		case 9:
 		$('#tableTD1').html('280');
-		$('#rate-c').html('$ 280 - 410');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 280 - 410"/>');
         $('#myModalC1').modal('show'); 
         break;
 		case 10:
 		$('#tableTD1').html('100');
-		$('#rate-c').html('$ 276 - 462');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 280 - 410"/>');
         $('#myModalC1').modal('show'); 
         break;
 		case 11:
 		$('#tableTD1').html('350');
-		$('#rate-c').html('$ 350 - 430');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 350 - 430"/>');
         $('#myModalC1').modal('show'); 
         break;
 		case 12:
 		$('#tableTD1').html('472');
-		$('#rate-c').html('$ 472 - 671');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 472 - 671"/>');
         $('#myModalC1').modal('show'); 
         break;
 		case 13:
 		$('#tableTD1').html('525');
-		$('#rate-c').html('$ 525');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 525"/>');
         $('#myModalC1').modal('show'); 
         break;
 		 case 14:
 		 $('#tableTD1').html('35');
-		 $('#rate-c').html('$ 35');
+		 $('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 35"/>');
         $('#myModalC1').modal('show'); 
         break;
 		case 15:
 		$('#tableTD1').html('175');
-		$('#rate-c').html('$ 175');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 175"/>');
         $('#myModalC1').modal('show'); 
         break;
     default:
@@ -2058,11 +1451,10 @@ function displayForm(){
 
 
 //$('#myModalC1').modal('hide'); 
-$('#myModalCForm').modal('show'); 
+//$('#myModalCForm').modal('show'); 
+displayThanks();
 
 }
-
-
 
 function displayThanks(){
 
@@ -2071,9 +1463,13 @@ $('#myModalC1').modal('hide');
 $('#myModalCForm').modal('hide');
 $('#myModalCType').modal('hide');
 $('#myModalComType').modal('hide'); 
-$('#myModalThanks').modal('show'); 
+$('#myModalThanks').modal('hide'); 
+$('#myModalQuoteEdit').modal('show'); 
 return false;
 }
+
+
+
 
   $("#myModalCType").on("hidden.bs.modal", function () {
     // put your default event here
@@ -2094,17 +1490,19 @@ function selectCtype(sel){
 //alert(sel.value);
 
 
-
+/*
 if(sel.value === "Hazardous"){
-$('#myModalComType').modal('show'); 
-}
 
+$('#myModalComType').modal('show'); 
+
+}
+*/
 
 }
 
 function selecttype(sel){
 
-
+/*
 if(sel.value === "Open Top"){
 $('#myModalCType').modal('show'); 
 }
@@ -2114,6 +1512,7 @@ $('#myModalCType').modal('show');
 if(sel.value === "Flat Pad"){
 $('#myModalCType').modal('show'); 
 }
+*/
 }
 
 function selectsize(sel){
@@ -2127,228 +1526,228 @@ function selectsize(sel){
 		case 1:
 		if(sel.value === "20"){
 		updateValues(sel.value,414);
-		$('#rate-c').html('$ 414 - 588');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 414 - 588"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,496);
-		$('#rate-c').html('$ 496 - 705');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 496 - 705' + '"/>' );
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,621);
-		$('#rate-c').html('$ 621 - 882');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' +  '$ 621 - 882' + '"/>');
 		}
         break;
 		case 2:
 		if(sel.value === "20"){
 		updateValues(sel.value,80);
-		$('#rate-c').html('$ 80');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 80' + '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,96);
-		$('#rate-c').html('$ 96');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 96'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,120);
-		$('#rate-c').html('$ 120');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 120'+ '"/>');
 		}
         break;
 		case 3:
         if(sel.value === "20"){
 		
 		updateValues(sel.value,100);
-		$('#rate-c').html('$ 100');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 100'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,120);
-		$('#rate-c').html('$ 120');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 120'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,150);
-		$('#rate-c').html('$ 150');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 150'+ '"/>');
 		} 
 		  break;
 		case 4:
         if(sel.value === "20"){
 		updateValues(sel.value,85);
-		$('#rate-c').html('$ 85');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 85'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,102);
-		$('#rate-c').html('$ 102');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 102'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,127);
-		$('#rate-c').html('$ 127');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 127'+ '"/>');
 		} 
         break;
 		case 5:
         if(sel.value === "20"){
 		updateValues(sel.value,150);
-		$('#rate-c').html('$ 150');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 150'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,180);
-		$('#rate-c').html('$ 180');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 180'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,225);
-		$('#rate-c').html('$ 225');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 225'+ '"/>');
 		} 
         break;
 	
 		case 6:
 		 if(sel.value === "20"){
 		 updateValues(sel.value,272);
-		$('#rate-c').html('$ 272 - 387');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 272 - 387'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,326);
-		$('#rate-c').html('$ 326 - 464');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 326 - 464'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,408);
-		$('#rate-c').html('$ 408 - 580');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 408 - 580'+ '"/>');
 		}
      
         break;
 		case 7:
          if(sel.value === "20"){
 		 updateValues(sel.value,213);
-		$('#rate-c').html('$ 213 - 356');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 213 - 356'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,255);
-		$('#rate-c').html('$ 255 - 427');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 255 - 427'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,319);
-		$('#rate-c').html('$ 319 - 534');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 319 - 534'+ '"/>');
 		}
         break;
 		case 8:
         if(sel.value === "20"){
 		updateValues(sel.value,310);
-		$('#rate-c').html('$ 310 - 450');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 310 - 450'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,372);
-		$('#rate-c').html('$ 372 - 540');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 372 - 540'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,465);
-		$('#rate-c').html('$ 465 - 675');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 465 - 675'+ '"/>');
 		}
         break;
 		case 9:
         if(sel.value === "20"){
 		updateValues(sel.value,280);
-		$('#rate-c').html('$ 280 - 410');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 280 - 410'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,336);
-		$('#rate-c').html('$ 336 - 492');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 336 - 492'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,420);
-		$('#rate-c').html('$ 420 - 615');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 420 - 615'+ '"/>');
 		}
         break;
 		case 10:
         if(sel.value === "20"){
 		updateValues(sel.value,276);
-		$('#rate-c').html('$ 276 - 462');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 276 - 462'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,331);
-		$('#rate-c').html('$ 331 - 554');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 331 - 554'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,414);
-		$('#rate-c').html('$ 414 - 693');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 414 - 693'+ '"/>');
 		}
         break;
 		case 11:
         if(sel.value === "20"){
 		updateValues(sel.value,350);
-		$('#rate-c').html('$ 350 - 430');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 350 - 430'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,420);
-		$('#rate-c').html('$ 420 - 516');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 420 - 516'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,525);
-		$('#rate-c').html('$ 525 - 645');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 525 - 645'+ '"/>');
 		} 
         break;
 		case 12:
         if(sel.value === "20"){
 		updateValues(sel.value,472);
-		$('#rate-c').html('$ 472 - 671');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 472 - 671'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,566);
-		$('#rate-c').html('$ 566 - 805');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 566 - 805'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,708);
-		$('#rate-c').html('$ 708 - 1006');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 708 - 1006'+ '"/>');
 		}
         break;
 		case 13:
         if(sel.value === "20"){
 		updateValues(sel.value,525);
-		$('#rate-c').html('$ 525');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 525'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,630);
-		$('#rate-c').html('$ 630');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 630'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,787);
-		$('#rate-c').html('$ 787');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 787'+ '"/>');
 		}
         break;
 		 case 14:
          if(sel.value === "20"){
 		 updateValues(sel.value,35);
-		$('#rate-c').html('$ 35');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 35'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,42);
-		$('#rate-c').html('$ 42');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 42'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,52);
-		$('#rate-c').html('$ 52');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 52'+ '"/>');
 		}
         break;
 		case 15:
 		if(sel.value === "20"){
 		updateValues(sel.value,175);
-		$('#rate-c').html('$ 175');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 175'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,210);
-		$('#rate-c').html('$ 210');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 210'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,262);
-		$('#rate-c').html('$ 262');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 262'+ '"/>');
 		}
         break;
     default:
        if(sel.value === "20"){
 	   updateValues(sel.value,414);
-		$('#rate-c').html('$ 414 - 588');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="$ 414 - 588"/>'+ '"/>');
 		}
 		if(sel.value === "40"){
 		updateValues(sel.value,496);
-		$('#rate-c').html('$ 496 - 705');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 496 - 705'+ '"/>');
 		}
 		if(sel.value === "40HC"){
 		updateValues(sel.value,621);
-		$('#rate-c').html('$ 621 - 882');
+		$('#rate-c').html('<input style="margin-bottom:0.5em !important; padding:6px !important;" type="text" name="rate-c1" value="' + '$ 621 - 882' + '"/>');
 		}
 		
 		
@@ -2368,44 +1767,16 @@ function updateValues(size,rate){
 }
 
 
+      
+      <!-- Javascript -->
+     
+   
+    
 	</script>
-    <script src="ChatJs/js/jquery.autosize.js"></script>
-    <link rel="stylesheet" href="Styles/styles.css"/>
+   
 
     <!-- chatjs files-->
-    <script src="ChatJs/js/jquery.chatjs.utils.js"></script>
-    <script src="ChatJs/js/jquery.chatjs.adapter.servertypes.js"></script>
-    <script src="ChatJs/js/jquery.chatjs.adapter.js"></script>
-    <script src="ChatJs/js/jquery.chatjs.adapter.demo.js"></script>
-    <script src="ChatJs/js/jquery.chatjs.window.js"></script>
-    <script src="ChatJs/js/jquery.chatjs.messageboard.js"></script>
-    <script src="ChatJs/js/jquery.chatjs.userlist.js"></script>
-    <script src="ChatJs/js/jquery.chatjs.pmwindow.js"></script>
-    <script src="ChatJs/js/jquery.chatjs.friendswindow.js"></script>
-    <script src="ChatJs/js/jquery.chatjs.controller.js"></script>
-    <link rel="stylesheet" href="ChatJs/css/jquery.chatjs.css"/>
 
-    <script type="text/javascript">
-        $(function () {
-            $.chat({
-                // your user information
-                userId: 1,
-                // id of the room. The friends list is based on the room Id
-                roomId: 1,
-                // text displayed when the other user is typing
-                typingText: ' is typing...',
-                // title for the rooms window
-                roomsTitleText: 'Rooms',
-                // title for the 'available rooms' rab
-                availableRoomsText: 'Available rooms',
-                // text displayed when there's no other users in the room
-                emptyRoomText: "There's no one around here. You can still open a session in another browser and chat with yourself :)",
-                // the adapter you are using
-                chatJsContentPath: '/basics/chatjs/',
-                adapter: new DemoAdapter()
-            });
-        });
-    </script>
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 <!-- //smooth scrolling -->
 
