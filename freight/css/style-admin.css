@@ -841,7 +841,7 @@ a.navbar-brand span {
   background-color: #2FD828;
 }
 .navbar-default .navbar-nav > li > a{
-	color: #fff;
+	color: #ff8c00;
 	font-size: 15px;
 	letter-spacing: 1px;
 	text-transform:uppercase;
@@ -862,10 +862,10 @@ a.navbar-brand span {
 	border:none;
 }
 .navbar-default .navbar-brand {
-    color: #fff;
+    color: #ff8c00;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a.active {
-    color: #ffffff;
+    color: #ff8c00;
 }
 .navbar {
     border-radius: 0px;
